@@ -20,7 +20,7 @@ const Timeline = () => {
                                 <li className="list-group-item">
                                     <div className="timeline-image clickable">
                                         <a href="http://www.globalvision.ca/" target="_blank" rel="noreferrer noopener">
-                                            <img className="rounded-circle img-fluid" src="assets/img/timeline/globalvision.png" />
+                                            <img alt="gv" className="rounded-circle img-fluid" src="assets/img/timeline/globalvision.png" />
                                         </a>
                                     </div>
                                     <div className="timeline-panel">
@@ -36,7 +36,7 @@ const Timeline = () => {
                                 <li className="list-group-item timeline-inverted">
                                     <div className="timeline-image clickable">
                                         <a href="https://hacked.compeclub.com/" target="_blank" rel="noreferrer noopener">
-                                            <img className="rounded-circle img-fluid" src="assets/img/timeline/hackED_edit.png" />
+                                            <img alt="hacked" className="rounded-circle img-fluid" src="assets/img/timeline/hackED_edit.png" />
                                         </a>
                                     </div>
                                     <div className="timeline-panel">
@@ -52,7 +52,7 @@ const Timeline = () => {
                                 <li className="list-group-item">
                                     <div className="timeline-image clickable">
                                         <a href="https://www.usask.ca/" target="_blank" rel="noreferrer noopener">
-                                            <img className="rounded-circle img-fluid" src="assets/img/timeline/usask.png" />
+                                            <img alt="uni" className="rounded-circle img-fluid" src="assets/img/timeline/usask.png" />
                                         </a>
                                     </div>
                                     <div className="timeline-panel">

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-import { SyncOutlined, CheckOutlined, CloseOutlined } from '@ant-design/icons';
+import { SyncOutlined } from '@ant-design/icons';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {

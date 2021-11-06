@@ -1,12 +1,10 @@
-import React, {useEffect, useState } from 'react';
+import React, {useEffect } from 'react';
 
 const Navbar = () => {
 
-    const [scrollPosition, setScrollPosition] = useState(0);
 
     const handleScroll = () => {
         const position = window.pageYOffset;
-        setScrollPosition(position);
         const mainNav = document.querySelector('#mainNav');
         if (position > 100) {
             mainNav.classList.add('navbar-shrink');

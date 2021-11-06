@@ -9,7 +9,7 @@ const Header = () => {
             <header className="text-center text-white bg-primary masthead">
                     <div className="container">
                         <Slide top>
-                            <img className="img-fluid d-block mx-auto mb-5" style={{width:'30%', borderRadius: '50%', border: '3px solid white'}} src="assets/img/profile/profile.png"/>
+                            <img alt="profile" lassName="img-fluid d-block mx-auto mb-5" style={{width:'30%', borderRadius: '50%', border: '3px solid white'}} src="assets/img/profile/profile.png"/>
                         </Slide>
                         <Fade >
                             <h1>Jaden Park</h1>

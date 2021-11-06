@@ -106,15 +106,15 @@ const Portfolio = () => {
 
     const element = (item, i) => (
         <div className="col-md-6 col-lg-4">
-            <a className="d-block mx-auto portfolio-item" style={{cursor: 'pointer'}} onClick={() => openModal(i, item)}>
+            <div className="d-block mx-auto portfolio-item" style={{cursor: 'pointer'}} onClick={() => openModal(i, item)}>
                 <div className="d-flex portfolio-item-caption position-absolute h-100 w-100">
                     <div className="text-center text-white my-auto portfolio-item-caption-content w-100">
                         <i className="fa fa-search-plus fa-2x"></i>
                         <h3>{item.type}</h3>
                     </div>
                 </div>
-                <img className="img-fluid" src={item.img}></img>
-            </a>
+                <img alt="item" className="img-fluid" src={item.img}></img>
+            </div>
         </div>
     )
 
@@ -148,7 +148,7 @@ const Portfolio = () => {
 
                         <h2 className="text-center text-white p-5">{clickedItem.name}</h2>
 
-                        {clickedItem.videoLink != '' ? 
+                        {clickedItem.videoLink !== '' ? 
                             <iframe 
                                 width="100%" 
                                 height="40%" 
@@ -169,7 +169,7 @@ const Portfolio = () => {
                             <h2 className="px-2 pt-2 text-white">Github</h2>
                         </div>
 
-                        {clickedItem.videoLink != '' ?
+                        {clickedItem.videoLink !== '' ?
                             <div className="pt-3" style={{display:"flex", justifyContent: 'center'}}>
                                 <a className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href={clickedItem.videoLink} target="_blank" rel="noreferrer noopener">
                                     <i className="fa fa-youtube fa-fw" />

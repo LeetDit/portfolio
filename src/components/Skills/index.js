@@ -70,7 +70,7 @@ const Skills = () => {
 
     const element = (item, i) => (
       <div className="card" style={{ width: '15rem', borderRadius: '25px'}}>
-        <img className="p-3" style={{borderRadius: '60px'}} src={item.img} />
+        <img alt="skill" className="p-3" style={{borderRadius: '60px'}} src={item.img} />
         <div className="card-body text-center">
           <h5 className="card-title" style={{color: 'black'}}>{item.type}</h5>
         </div>
